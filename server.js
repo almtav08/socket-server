@@ -48,7 +48,7 @@ io.on("connection", (socket) => {
   }
 
   console.log(
-    `User ${user} connected to room ${room}. Users connected ${
+    `User ${user} connected to room ${room}. Total users connected ${
       io.sockets.adapter.rooms.get(userRooms[user])?.size
     } / ${process.env.MAX_USERS_ROOM}`
   );

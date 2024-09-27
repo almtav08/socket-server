@@ -1,4 +1,3 @@
-// make a script that checks if all the packages are installed using the package.json file. If the pacakges are not installed, then install them. It should work with any package manager (npm, yarn, pnpm)
 import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';

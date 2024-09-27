@@ -4,7 +4,7 @@
 2. This connection can be done through a local network (the clients and the server are connected in a LAN or WLAN Network) or through the internet (the server has a public IP address that can be reached through the internet).
 3. Normally, if the server and the clients are in the same WLAN or LAN they can reach each other without any additional configuration. Private company networks normally allow this communication.
 4. The server can be executed in every operating system.
-5. The server needs to have Node.js installed. You can download it from the official website: https://nodejs.org/en/download/. The server can be executed with Node.js 20 or higher.
+5. The server needs to have Node.js installed. You can download it from the official website: https://nodejs.org/en/download/. The server must be executed with Node.js 20 or higher.
 
 ## How to run the server
 
@@ -20,7 +20,7 @@
 2. Esta conexión puede hacerse a través de una red local (los clientes y el servidor están conectados en una red LAN o WLAN) o a través de internet (el servidor tiene una dirección IP pública que puede ser alcanzada a través de internet).
 3. Normalmente, si el servidor y los clientes están en la misma WLAN o LAN pueden alcanzarse sin ninguna configuración adicional. Las redes privadas de empresas normalmente permiten esta comunicación.
 4. El servidor puede ser ejecutado en cualquier sistema operativo.
-5. El servidor necesita tener Node.js instalado. Puedes descargarlo desde la página web oficial: https://nodejs.org/en/download/. El servidor puede ser ejecutado con Node.js 20 o superior.
+5. El servidor necesita tener Node.js instalado. Puedes descargarlo desde la página web oficial: https://nodejs.org/en/download/. El servidor debe ser ejecutado con Node.js 20 o superior.
 
 ## Cómo ejecutar el servidor
 
