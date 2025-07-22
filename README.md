@@ -5,6 +5,7 @@
 3. Normally, if the server and the clients are in the same WLAN or LAN they can reach each other without any additional configuration. Private company networks normally allow this communication.
 4. The server can be executed in every operating system.
 5. The server needs to have Node.js installed. You can download it from the official website: https://nodejs.org/en/download/. The server must be executed with Node.js 20 or higher.
+6. For launching and stoping the server by commands, the global package `pm2` is recommended. You can install it by running the command `npm install -g pm2`. This will allow you to manage the server process easily.
 
 ## How to run the server
 
@@ -13,6 +14,7 @@
 3. Once you have the terminal open in the server folder, execute the following command: `npm start`. This command will install all the dependencies needed and will run the server.
 4. To close the server you only need to focus on the terminal window and press `Ctrl + C`.
 5. To ensure optimal server conditions for each test, it is recommended to restart the server. To do this, simply close the server and run the `npm start` command again.
+6. If you have installed `pm2`, you can start the server with the command `npm run launch`. This will allow you to manage the server process easily. For stopping the server, you can use the command `npm run stop`. This will stop the server process managed by `pm2`.
 
 ## Cómo preparar el servidor
 

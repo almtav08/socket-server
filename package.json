@@ -7,13 +7,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "node check-packages.js",
-    "start": "node --env-file=.env server.js"
+    "start": "node --env-file=.env server.js",
+    "launch": "pm2 start npm --name socket-server -- start",
+    "stop": "pm2 stop socket-server"
   },
-  "keywords": ["socket.io", "express"],
+  "keywords": [
+    "socket.io",
+    "express"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0",
-    "socket.io": "^4.7.5"
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
   }
 }
